@@ -1,0 +1,22 @@
+{
+    "name": "max-voloshin/nginx-conf-parser",
+    "description": "Nginx conf parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Voloshin",
+            "email": "voloshin.dp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaxVoloshin\\NginxConfParser\\": "src/"
+        }
+    },
+    "bin": [
+        "nginx-conf-parser"
+    ]
+}

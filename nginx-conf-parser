@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+$command = new \MaxVoloshin\NginxConfParser\Command(new \MaxVoloshin\NginxConfParser\Filesystem());
+
+list($code, $text) = $command->run($_SERVER['argv']);
+
+print($text);
+
+exit($code);
