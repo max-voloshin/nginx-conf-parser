@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/max-voloshin/nginx-conf-parser.svg?branch=master)](https://travis-ci.org/max-voloshin/nginx-conf-parser)
+
 Goal
 ====
 Show full (parsed) nginx config for further analysis
